@@ -1,0 +1,50 @@
+html{
+    background-color: #606060;
+    color: white;
+}
+article{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.threePoints{
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+.threePoints td{
+    width: 33.33%; 
+}
+.demo {
+    border:0px;
+    border-collapse:collapse;
+    padding:5px;
+    width: 100%;
+}
+.logo{
+    background-color: white;
+}
+.demo th {
+    border:0px ;
+    padding:5px;
+
+}
+.demo td {
+    border:0px ;
+    padding:5px;
+    width: 25%;
+    text-align: center;
+    background-color: skyblue;
+}
+.demo td:hover{
+    background-color: 	#00FFFF;
+}
+a:hover{
+    color: white;
+}
+img{
+    height: 30px;
+    width: 60px;
+}
+
