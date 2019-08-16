@@ -1,50 +1,78 @@
-html{
-    background-color: #606060;
-    color: white;
+/*aside tests */
+aside {
+    height: 100%;
+    width: 100%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset -5px 0 6px -5px orange;
+    font-style: italic;
+    color: orange;
+    max-width: 95%;
+    font-size: 22px;
 }
-article{
+aside > p {
+    margin: .5rem;
+}
+/*left aside*/
+.newOne{
+    height: 100%;
+    width: 100%;
+    padding-right: .5rem;
+    margin-right: .5rem;
+    float: left;
+    box-shadow: inset 5px 0 6px -5px orange;
+    font-style: italic;
+    color: orange;
+}
+h2{
     text-align: center;
-    font-family: sans-serif;
-    font-size: 16px;
+}
+.newOne{
+    margin: .5rem;
+}
+/*end aside tests */
+/*New table at bottom*/
+.newTD{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+/*End New Table bottom*/
+#welcomeMessage{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.siteDesc{
+    width: 100%;
+    font-size: 22px;
+}
+.siteDesc > td{
+    width: 33.33%;
+    padding-left: 5%
+}
+.new > td{
+    width: 33.33%;
+    word-wrap: break-word;
+    max-width: 50px;
 }
 .threePoints{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     width: 100%;
     text-align: center;
+    color: orange;
+    text-decoration: underline;
 }
 .threePoints td{
-    width: 33.33%; 
+    width: 33.33%;
+    vertical-align: top; 
 }
-.demo {
-    border:0px;
-    border-collapse:collapse;
-    padding:5px;
-    width: 100%;
-}
-.logo{
+#logo{
+    height: 50px;
+    width: 80px;
     background-color: white;
 }
-.demo th {
-    border:0px ;
-    padding:5px;
-
-}
-.demo td {
-    border:0px ;
-    padding:5px;
-    width: 25%;
-    text-align: center;
-    background-color: skyblue;
-}
-.demo td:hover{
-    background-color: 	#00FFFF;
-}
-a:hover{
-    color: white;
-}
-img{
-    height: 30px;
-    width: 60px;
-}
-

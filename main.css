@@ -1,0 +1,48 @@
+html{
+    background-color: rgb(39, 45, 48);
+    color: white;
+}
+article{
+    text-indent: 12px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-overflow: unset;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+/*Navbar css*/
+.demo {
+    border:0px;
+    border-collapse: collapse;
+    padding:50px;
+    width: 100%;
+    color: white;
+}
+.demo a{
+    color: orange;
+}
+.demo th {
+    border:0px ;
+    padding:5px;
+
+}
+.demo td {
+    border:0px ;
+    padding:5px;
+    width: 25%;
+    text-align: center;
+    font-size: 21px;
+    background-color: rgb(47, 56, 59);
+}
+.demo td:hover{
+    background-color: 	#606071;
+}
+a:hover{
+    color: white;
+}
+/*End navbar css*/
