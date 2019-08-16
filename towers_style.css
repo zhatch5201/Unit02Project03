@@ -1,0 +1,15 @@
+article{
+    color: lightblue;
+    text-align: left;
+    text-indent: 0px;
+    max-width: 60%;
+    font-size: 30px;
+}
+p{
+    padding-left: none;
+    text-align: left;
+    font-size: 20px;
+}
+ul{
+    list-style-type: georgian;
+}

@@ -45,4 +45,9 @@ footer{
 a:hover{
     color: white;
 }
+#logo{
+    height: 50px;
+    width: 80px;
+    background-color: white;
+}
 /*End navbar css*/
