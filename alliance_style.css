@@ -6,13 +6,13 @@ h1{
 table > tbody > tr > td > aside > p{
     float: left;
     font-size: 20px;
-    color: lightblue;
+    color: violet;
     text-indent: 15px;
 }
 /*End aside section*/
 /*The article section*/
 table > tbody > tr > td > article{
-    color: lightblue;
+    color: violet;
     max-width: 60%;
     word-break: normal;
     padding-left: 24px;
@@ -25,7 +25,7 @@ table > tbody > tr > td > article{
 /*The reviews*/
 table > tbody > tr > td > aside > h3{
     font-style: italic;
-    color: lightblue;
+    color: violet;
     float: center;
 }
 table > tbody > tr > td > aside > p > a{
@@ -33,5 +33,11 @@ table > tbody > tr > td > aside > p > a{
 }
 #picLogo{
     height: 600px;
-    width: 400px
+    width: 500px;
+}
+ol{
+    color: violet;
+}
+h4{
+    color: violet;
 }

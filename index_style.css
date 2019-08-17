@@ -14,6 +14,9 @@ aside {
 aside > p {
     margin: .5rem;
 }
+p > a{
+    color: red;
+}
 /*left aside*/
 .newOne{
     height: 100%;
